@@ -2,18 +2,29 @@
  
 .dark-background {
   background-color: #0b0b0b;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
  
 .bulb-image {
   width: 150px;
+  max-width: 100%;
+  height: auto;
 }
  
 .cat-image {
   width: 300px;
+  max-width: 100%;
+  height: auto;
 }
  
 .switch-board {
   width: 294px;
+  max-width: calc(100% - 32px);
   height: 139px;
   background-color: #7b8794;
   border-radius: 12px;
@@ -22,6 +33,7 @@
   padding-left: 16px;
   padding-right: 16px;
   margin: 16px;
+  box-sizing: border-box;
 }
  
 .switch-status {
